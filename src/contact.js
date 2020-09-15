@@ -1,7 +1,7 @@
 let content = document.getElementById('content');
 
 let contact = `
-<div class="container">
+<div class="container p-2">
 <div class="row mt-5">
     <h1 class="border-bottom">Contact Page</h1>
   <p class="lead">

@@ -1,7 +1,7 @@
-let content = document.getElementById('content');
+let content = document.getElementById("content");
 
 let menu = `
-<div class="container">
+<div class="container p-2">
 <div class="row mt-5">
     <h1 class="border-bottom">Menu Page</h1>
   <p class="lead">
@@ -22,7 +22,7 @@ let menu = `
 `;
 
 const renderMenu = () => {
-    content.insertAdjacentHTML('beforeend', menu);
-}
+  content.insertAdjacentHTML("beforeend", menu);
+};
 
-export default renderMenu
+export default renderMenu;

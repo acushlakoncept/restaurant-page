@@ -1,4 +1,4 @@
-let content = document.getElementById('content');
+let content = document.getElementById("content");
 
 let slider = `
 <div
@@ -56,7 +56,7 @@ data-ride="carousel"
 `;
 
 let aboutInfo = `
-<div class="container">
+<div class="container p-2">
 <div class="row mt-5">
     <h1 class="border-bottom">About</h1>
   <p class="lead">
@@ -77,8 +77,8 @@ let aboutInfo = `
 `;
 
 const renderHome = () => {
-    content.insertAdjacentHTML('beforeend', slider);
-    content.insertAdjacentHTML('beforeend', aboutInfo);
-}
+  content.insertAdjacentHTML("beforeend", slider);
+  content.insertAdjacentHTML("beforeend", aboutInfo);
+};
 
-export default renderHome
+export default renderHome;

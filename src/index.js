@@ -1,5 +1,6 @@
 import renderHome from './home'
 import renderMenu from './menu'
+import renderContact from './contact'
 
 renderHome();
 
@@ -8,14 +9,17 @@ let content = document.getElementById('content');
 
 tabLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        
-        console.log(e.target.textContent)
+
         if (e.target.textContent === 'Home') {
             renderPage(content, renderHome)
         }
 
         if (e.target.textContent === 'Menu') {
             renderPage(content, renderMenu)
+        }
+
+        if (e.target.textContent === 'Contact') {
+            renderPage(content, renderContact)
         }
 
     })

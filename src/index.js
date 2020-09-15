@@ -8,19 +8,23 @@ let content = document.getElementById('content');
 
 tabLinks.forEach(link => {
     link.addEventListener('click', (e) => {
-        // renderTab(e)
+        
         console.log(e.target.textContent)
         if (e.target.textContent === 'Home') {
-            content.innerHTML = '';
-            renderHome();
+            renderPage(content, renderHome)
         }
 
         if (e.target.textContent === 'Menu') {
-            content.innerHTML = '';
-            renderMenu();
+            renderPage(content, renderMenu)
         }
+
     })
 });
+
+const renderPage = (location, page) => {
+    location.innerHTML = '';
+    page();
+}
 
 
 $('.carousel').carousel()

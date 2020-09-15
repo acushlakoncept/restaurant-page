@@ -2,7 +2,11 @@
 
 In this project I built a Simple Restuarant Page App using webpack to practice DOM manipulation by dynamically rendering it's various pages: Home, Menu and Contact.
 
-![screenshot](./library.gif)
+![screenshot](./restaurant.gif)
+
+
+## Live Demo
+[Live view](https://acushlakoncept.github.io/restaurant-page/)
 
 ## Built With
 

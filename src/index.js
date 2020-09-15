@@ -1,3 +1,6 @@
-console.log('Its working fine')
+import renderHome from './home'
+
+
+renderHome();
 
 $('.carousel').carousel()

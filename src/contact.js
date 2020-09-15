@@ -1,6 +1,6 @@
-let content = document.getElementById("content");
+const content = document.getElementById('content');
 
-let contact = `
+const contact = `
 <div class="container p-2 mt-3">
     <h1 class="border-bottom">Contact Us</h1>
     <h4>Reach out to us today and have us amaze you</h4>
@@ -14,7 +14,7 @@ let contact = `
 `;
 
 const renderContact = () => {
-  content.insertAdjacentHTML("beforeend", contact);
+  content.insertAdjacentHTML('beforeend', contact);
 };
 
 export default renderContact;

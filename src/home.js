@@ -1,6 +1,6 @@
-let content = document.getElementById("content");
+const content = document.getElementById('content');
 
-let slider = `
+const slider = `
 <div
 id="carouselExampleControls"
 class="carousel slide"
@@ -55,7 +55,7 @@ data-ride="carousel"
 </div>
 `;
 
-let aboutInfo = `
+const aboutInfo = `
 <div class="container p-2">
 <div class="row mt-5">
     <h1 class="border-bottom">About</h1>
@@ -77,8 +77,8 @@ let aboutInfo = `
 `;
 
 const renderHome = () => {
-  content.insertAdjacentHTML("beforeend", slider);
-  content.insertAdjacentHTML("beforeend", aboutInfo);
+  content.insertAdjacentHTML('beforeend', slider);
+  content.insertAdjacentHTML('beforeend', aboutInfo);
 };
 
 export default renderHome;

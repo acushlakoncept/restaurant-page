@@ -1,6 +1,6 @@
-let content = document.getElementById("content");
+const content = document.getElementById('content');
 
-let menu = `
+const menu = `
 <div class="container p-2">
 <div class="row mt-5">
     <h1 class="border-bottom">Exquisite Kitchen Daily Special Menu</h1>
@@ -14,7 +14,7 @@ let menu = `
 </div>
 `;
 
-let menuItem = `
+const menuItem = `
 <div class="container d-flex flex-wrap">
 <div class="card m-2" style="width: 30rem;">
   <img class="card-img-top" src="imgs/parfait.jpg" alt="Parfait">
@@ -54,8 +54,8 @@ let menuItem = `
 `;
 
 const renderMenu = () => {
-  content.insertAdjacentHTML("beforeend", menu);
-  content.insertAdjacentHTML("beforeend", menuItem);
+  content.insertAdjacentHTML('beforeend', menu);
+  content.insertAdjacentHTML('beforeend', menuItem);
 };
 
 export default renderMenu;

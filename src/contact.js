@@ -1,21 +1,20 @@
-let content = document.getElementById('content');
+let content = document.getElementById("content");
 
 let contact = `
-<div class="container p-2">
-<div class="row mt-5">
-    <h1 class="border-bottom">Contact Page</h1>
+<div class="container p-2 mt-3">
+    <h1 class="border-bottom">Contact Us</h1>
+    <h4>Reach out to us today and have us amaze you</h4>
   <p class="lead">
-    For anyone who shares the same passion as me and would love to watch
-    and learn more, do well to subscribe (so you will be the first to be
-    notified when I upload a new video), share and give my videos a thumbs
-    up. Checkout my <a href="https://www.youtube.com/channel/UCNRhWLhBFVZFrPiC5T2xCQA/videos" target="_blank">YouTube Channel</a> 
+  <address>
+  <strong>Phone/WhatsApp:</strong> +234 706 369 8007<br>
+  <strong>Instagram:</strong> @exquisitekitchen 
+  </address>
   </p>
-</div>
 </div>
 `;
 
 const renderContact = () => {
-    content.insertAdjacentHTML('beforeend', contact);
-}
+  content.insertAdjacentHTML("beforeend", contact);
+};
 
-export default renderContact
+export default renderContact;

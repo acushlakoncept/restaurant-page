@@ -1,4 +1,4 @@
-const content = document.getElementById("content");
+const content = document.getElementById('content');
 
 const nav = `
 <div class="container">

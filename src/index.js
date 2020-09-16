@@ -1,5 +1,4 @@
 import 'bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import renderNav from './nav';
 import renderHome from './home';
 import renderMenu from './menu';

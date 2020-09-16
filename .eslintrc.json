@@ -16,11 +16,7 @@
     "arrow-parens": "off"
   },
   "settings": {
-    "import/resolver": {
-      "node": {
-        "paths": ["bootstrap"]
-      }
-    }
+    "import/core-modules": [ "bootstrap" ]
   },
   "ignorePatterns": [
     "dist/",
